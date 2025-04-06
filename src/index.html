@@ -1,7 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Scripts</title>
+        <script src="src/scripts/defer.js" defer></script>
+        <script src="src/scripts/async.js" async></script>
     </head>
-    <body></body>
+    <body><script>
+        document.body.append('inline');
+    </script>
+    <script src="src/scripts/sync.js"></script></body>
 </html>
